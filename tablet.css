@@ -1,0 +1,58 @@
+@media (min-width:481px) and (max-width:768px){
+    .con .o .second::after {
+        box-shadow: none;
+    }
+    .conti .holds .hold3::before{
+        height: calc(100% + 10px);
+        top: 10px;
+    }
+    .g .ask .imag::before {
+        background-color: transparent;
+    }
+    .g .ask .imag::after {
+        background-color: transparent;
+    }
+    .g .ask .talk .one::after {
+        top: 100px;
+    }
+    .list .show {
+        margin-top: 5%;
+        padding: 35px;
+        height: 30vh;
+    }
+    .pictu .ps {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    }
+    .conti .holds .hold3::before {
+        background-color: transparent;
+    }
+    .group .divs {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        gap: 20px;
+    }
+    .g .ask .talk .one::after {
+        background-color: transparent;
+    }
+    .contact .one {
+        margin-left: 60px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .contact .two {
+        margin-left: 100px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .contact .website {
+        margin-left: 110px;
+        font-size: 15px;
+    }
+    .list{
+        flex-direction: column;
+    }
+    header .container .span .links {
+        right: 215px;
+    }
+}

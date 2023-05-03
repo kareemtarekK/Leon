@@ -1,0 +1,84 @@
+@media(max-width:480px){
+    header .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    header .container .span{
+        position: relative;
+    }
+    header .container .span .links{
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        width: 100%;
+    }
+    .all .ser h1{
+        font-size: 90px;
+    }
+    .all .ser p{
+        transform: translateY(5px);
+    }
+    .apr .text h1{
+        font-size: 90px;
+    }
+    .apr .text p{
+        transform: translateY(-5px);
+    }
+    .group .divs {
+        text-align: center;
+    }
+    .about .g .imag::before{
+        right: 70px;
+    }
+    .about .g .imag::after{
+        right: 50px;
+        width: 55px;
+    }
+    .g .ask .talk .one{
+        font-size: 13px;
+        font-weight: 250;
+    }
+    .contact .cont h1{
+        font-size: 90px;
+    }
+    .contact .two,.contact .one,.contact .website{
+        font-size: 13px;
+        transform: translateX(-90px);
+    }
+    .l .next .small{
+        padding: 5px;
+    }
+    .list{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(350px , 1fr));
+        margin: auto;
+    }
+    .pictu .ps{
+        padding: 10px;
+        margin: auto;
+        /* display: grid; */
+        gap: 10px;
+        /* grid-template-columns: repeat(auto-fill,minmax(200px , 1fr)); */
+    }
+    .pictu .ps .one img,.pictu .ps .ooo img,.pictu .ps .thre img{
+        width: 100%;
+    }
+    .lll{
+        margin: auto;
+    }
+    .g .ask .imag::before ,.g .ask .imag::after{
+        background-color: transparent;
+    }
+    .conti .holds .hold3::before {
+        background-color: transparent;
+    }
+    .pictu .ps .one img ,.pictu .ps .ooo img ,.pictu .ps .thre img {
+        width: 90%;
+    }
+    .con .o .second::after {
+        box-shadow:none;
+    }
+    .g .ask .talk .one::after {
+        background-color: transparent;
+    }
+}

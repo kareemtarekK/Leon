@@ -1,0 +1,12 @@
+@media (min-width:769px) and (max-width:1024px){
+    .pictu .ps {
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    }
+    .con .o .second::after {
+        box-shadow: none;
+    }
+    .conti .holds .hold3::before {
+        height: calc(100% + 15px);
+        top: 13px;
+    }
+}
