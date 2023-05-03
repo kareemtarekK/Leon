@@ -8,5 +8,6 @@
     .conti .holds .hold3::before {
         height: calc(100% + 15px);
         top: 13px;
+        right:60px
     }
 }
